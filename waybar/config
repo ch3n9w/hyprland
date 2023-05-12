@@ -13,7 +13,7 @@
                 "10": " ",󱍢 󰯈 󱓈 󱙝 󰹻 󰮠  󰈺 󰣘 󰻝 󰭟 󰄛 󰛓 󱃽 󱅻 󰘩 󰨞 󰒶 󰯉 󱇪 󱎷  󰈹      */
             },
             "format-icons": {
-                "1": " ",
+                "1": " ",
                 "2": " ",
                 "3": " ",
                 "4": " ",
@@ -27,6 +27,7 @@
         },
         "wlr/workspaces": {
             "all-outputs": false,
+            /*"format": "{name} <span font='30'>{icon}</span>"*/
             "format": "{name} {icon}",
             "on-click": "activate",
             "format-icons": {
@@ -41,7 +42,6 @@
                 "9": " ",
                 "10": " ",
                 "11": " ",
-
             },
             "sort-by-number": true
         },

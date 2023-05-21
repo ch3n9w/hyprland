@@ -25,10 +25,7 @@ window#waybar {
   padding: 0 10px;
   color: white;
   min-width: 50px;
-  /* border-top: 1px solid #212124; */
   border-bottom: 2px solid #212124;
-  /* border-left: 1px solid #212124; */
-  /* border-right: 1px solid #212124; */
 }
 
 #workspaces button.focused {
@@ -43,10 +40,7 @@ window#waybar {
 #workspaces button.active {
   color: #7aa2f7;
   border-radius: 1px;
-  /* border-top: 1px solid #7aa2f7; */
   border-bottom: 2px solid #7dcfff;
-  /* border-left: 1px solid #7aa2f7; */
-  /* border-right: 1px solid #7aa2f7; */
 }
 #workspaces button:hover {
   color: white;
@@ -55,8 +49,7 @@ window#waybar {
 }
 
 
-#custom-gpu-usage, #custom-date, #battery, #pulseaudio, #network, #temperature,#cpu,#memory, #bluetooth, #custom-books, #custom-ML,#custom-forest-coin, #custom-forest, #custom-todo{
-  /*background-color: #4c566a;*/
+#custom-gpu-usage, #custom-date, #battery, #pulseaudio, #network, #temperature,#cpu,#memory, #bluetooth, #custom-todo{
   background-color: #373737;
   background: #212124;
   padding: 0px 10px;

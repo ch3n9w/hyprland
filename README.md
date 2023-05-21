@@ -1,9 +1,10 @@
 # hyprland
 
 <!--toc:start-->
+
 - [hyprland](#hyprland)
   - [Personal Prefered Software](#personal-prefered-software)
-<!--toc:end-->
+  <!--toc:end-->
 
 hyprland configuration
 
@@ -27,3 +28,4 @@ hyprland configuration
 |    bluetooth     |                  blueman                   |
 |    todo list     |                todo.txt-cli                |
 |   input method   |                   fcitx5                   |
+|   screen lock    |              swaylock-effect               |

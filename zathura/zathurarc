@@ -6,10 +6,11 @@ set window-title-basename "true"
 # Startup options
 #
 set adjust-open width
-set guioptions none
+# set guioptions none
 set recolor true
 
 map [normal] <Space> scroll half-down
+map [normal] <S-Space> scroll half-up
 map [normal] <C-Space> scroll half-up
 
 include catppuccin-mocha

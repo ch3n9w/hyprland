@@ -9,6 +9,5 @@ rm ./waybar/config.sway
 cp -r ~/.config/zathura ./
 cp -r ~/.config/rofi ./
 cp -r ~/.config/dunst ./
-cp /etc/environment.hyprland ./environment
 
 

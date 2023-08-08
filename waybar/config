@@ -5,17 +5,17 @@
         "modules-right": ["custom/books", "custom/todo", "network","bluetooth","memory","temperature","pulseaudio","battery"],
         "wlr/workspaces": {
             "all-outputs": false,
-            /*"format": "{name} <span font='30'>{icon}</span>"*/
+            /*"format": "{name} <span font='25'>{icon}</span>",*/
             "format": "{name} {icon}",
             "on-click": "activate",
             "format-icons": {
-                "1": " ",
-                "2": " ",
-                "3": " ",
+                "1": " ",
+                "2": " ",
+                "3": " ",
                 "4": " ",
-                "5": " ",
-                "6": " ",
-                "7": " ",
+                "5": " ",
+                "6": " ",
+                "7": " ",
                 "8": " ",
                 "9": " ",
                 "10": " ",

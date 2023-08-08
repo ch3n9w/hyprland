@@ -52,15 +52,18 @@ const rl = readline.createInterface({
 });
 
 rl.question("", function (text) {
-  var strip_text = text.replace(/\n/g, '')
-  var target_language = 'zh-CN';
+  var strip_text = text.replace(/\n/g, "");
+  var target_language = "zh-CN";
   const options = {
     hostname: "translate.google.com",
-    path: `/translate_a/single?client=webapp&sl=auto&tl=${target_language}&hl=${target_language}&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&source=bh&ssel=0&tsel=0&kc=1&tk=${TL(strip_text)}&q=${encodeURIComponent(strip_text)}`,
+    path: `/translate_a/single?client=webapp&sl=auto&tl=${target_language}&hl=${target_language}&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&source=bh&ssel=0&tsel=0&kc=1&tk=${TL(
+      strip_text,
+    )}&q=${encodeURIComponent(strip_text)}`,
     method: "GET",
     headers: { responseType: "json" },
   };
-  const req = http.request(options, (res) => {
+  const req = http
+    .request(options, (res) => {
       let data = "";
       res.on("data", (chunk) => {
         data += chunk;
@@ -68,16 +71,16 @@ rl.question("", function (text) {
       res.on("end", () => {
         var result = JSON.parse(data);
         var content_list = result[0];
-        var final = ""
+        var final = "";
         // console.log(content_list)
         for (let index = 0; index < content_list.length; index++) {
           if (content_list[index][0] !== null) {
             final += content_list[index][0];
           } else {
-            break
+            break;
           }
         }
-        console.log(final)
+        console.log(final);
       });
     })
     .on("error", (err) => {
@@ -85,4 +88,3 @@ rl.question("", function (text) {
     })
     .end();
 });
-

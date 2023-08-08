@@ -1,6 +1,6 @@
 # hyprland
 
-hyprland configuration
+![hyprland](./screenshots/hyprland.png)
 
 ## Desktop Component
 

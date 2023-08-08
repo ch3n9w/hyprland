@@ -1,6 +1,9 @@
 # hyprland
 
 ![hyprland](./screenshots/hyprland.png)
+![scratchpad](./screenshots/scratchpad.png)
+![launcher](./screenshots/launcher.png)
+![translate](./screenshots/translate.png)
 
 ## Desktop Component
 

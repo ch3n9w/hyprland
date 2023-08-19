@@ -79,10 +79,10 @@
             "max-length": 8,
         },
         "bluetooth": {
-            "format": "{icon}",
+            "format": " {statue}",
             "format-connected": " {device_alias}",
+            "format-disabled": "",
             "tooltip": false,
-            "tooltip-format": "{status}",
             "format-on": "",
             "format-off": "󰂲",
             "on-click": "sleep 0.1 && ~/.config/waybar/bin/rofi-bluetooth.sh &",
@@ -95,7 +95,7 @@
         },
         "custom/todo": {
             "format": "",
-            "on-click": "sleep 0.1 && ~/.config/sway/bin/todofi.sh -c ~/.config/todo/todofish.conf",
+            "on-click": "sleep 0.1 && ~/.config/hypr/bin/todofi.sh -c ~/.config/todo/todofish.conf",
             "tooltip": false,
         },
 }

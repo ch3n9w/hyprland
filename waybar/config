@@ -2,7 +2,7 @@
     "position": "bottom", 
         "modules-left": ["wlr/workspaces"],
         "modules-center": ["clock"],
-        "modules-right": ["custom/books", "custom/todo", "network","bluetooth","memory","temperature","pulseaudio","battery"],
+        "modules-right": ["custom/todo", "network","bluetooth","memory","temperature","pulseaudio","battery"],
         "wlr/workspaces": {
             "all-outputs": false,
             /*"format": "{name} <span font='25'>{icon}</span>",*/
@@ -79,19 +79,14 @@
             "max-length": 8,
         },
         "bluetooth": {
-            "format": " {statue}",
+            "format": "{icon}",
             "format-connected": " {device_alias}",
-            "format-disabled": "",
             "tooltip": false,
+            "tooltip-format": "{status}",
             "format-on": "",
             "format-off": "󰂲",
             "on-click": "sleep 0.1 && ~/.config/waybar/bin/rofi-bluetooth.sh &",
             "max-length": 5,
-        },
-        "custom/books": {
-            "on-click": "sleep 0.1 && ~/.config/waybar/bin/books-search.sh",
-            "format": "",
-            "tooltip": false,
         },
         "custom/todo": {
             "format": "",

@@ -1,5 +1,6 @@
 [Desktop Action new-private-window]
 Exec=env GTK_IM_MODULE=wayland /usr/lib/firefox-developer-edition/firefox --class="firefoxdeveloperedition" --private-window %u
+# Exec=/usr/lib/firefox-developer-edition/firefox --class="firefoxdeveloperedition" --private-window %u
 Name[en_US]=New Private Window
 Name=New Private Window
 Name[ach]=Dirica manyen me mung

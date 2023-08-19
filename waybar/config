@@ -95,7 +95,7 @@
         },
         "custom/todo": {
             "format": "",
-            "on-click": "sleep 0.1 && ~/.config/hypr/bin/todofi.sh -c ~/.config/todo/todofish.conf",
+            "on-click": "sleep 0.1 && ~/.config/sway/bin/todofi.sh -c ~/.config/todo/todofish.conf",
             "tooltip": false,
         },
 }

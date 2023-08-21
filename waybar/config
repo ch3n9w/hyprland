@@ -2,7 +2,7 @@
     "position": "bottom", 
         "modules-left": ["wlr/workspaces"],
         "modules-center": ["clock"],
-        "modules-right": ["custom/todo", "network","bluetooth","memory","temperature","pulseaudio","battery"],
+        "modules-right": ["network","bluetooth","memory","temperature","pulseaudio","battery"],
         "wlr/workspaces": {
             "all-outputs": false,
             /*"format": "{name} <span font='25'>{icon}</span>",*/
@@ -47,7 +47,7 @@
             "format-linked": "{ifname} (No IP) ",
             "format-disconnected": " ",
             "format-disabled": "Disabled",
-            "on-click": "sleep 0.1 && ~/.config/waybar/bin/rofi-wifi-menu.sh",
+            "on-click": "sleep 0.1 && ~/.config/hypr/bin/rofi-wifi-menu.sh",
             "max-length": 5,
         },
         "pulseaudio": {
@@ -87,10 +87,5 @@
             "format-off": "󰂲",
             "on-click": "sleep 0.1 && ~/.config/waybar/bin/rofi-bluetooth.sh &",
             "max-length": 5,
-        },
-        "custom/todo": {
-            "format": "",
-            "on-click": "sleep 0.1 && ~/.config/sway/bin/todofi.sh -c ~/.config/todo/todofish.conf",
-            "tooltip": false,
         },
 }

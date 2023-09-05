@@ -5,5 +5,6 @@ if [ -z "$hasspecial" ]; then
   # /home/ch4ser/.local/bin/kitty --class "scratchpad" &
   alacritty --class "scratchpad" &
   sleep 0.5
+else
+  hyprctl dispatch togglespecialworkspace
 fi
-hyprctl dispatch togglespecialworkspace

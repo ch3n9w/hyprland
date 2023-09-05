@@ -1,6 +1,6 @@
 {
     "position": "bottom", 
-        "modules-left": ["wlr/workspaces"],
+        "modules-left": ["hyprland/workspaces"],
         "modules-center": ["clock"],
         "modules-right": ["network","bluetooth","memory","temperature","pulseaudio","battery"],
         "hyprland/workspaces": {

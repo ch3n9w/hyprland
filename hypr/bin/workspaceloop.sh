@@ -2,7 +2,7 @@
 
 current_workspace=$(hyprctl activewindow | grep "workspace: " | cut -d' ' -f2)
 current_monitor=$(hyprctl monitors -j | jq -r '.[] | select(.focused==true).name')
-current_monitor_ws=($(hyprctl workspaces -j | jq -r ".[] | select(.monitor==\"$current_monitor\") | select(.name!=\"special:scratchpad\") | .name"))
+current_monitor_ws=($(hyprctl workspaces -j | jq -r ".[] | select(.monitor==\"$current_monitor\") | select(.name!=\"special\") | .name"))
 current_ws=$(hyprctl monitors -j | jq -r '.[] | select(.focused==true) | .activeWorkspace | .name')
 echo $current_ws
 

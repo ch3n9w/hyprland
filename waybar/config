@@ -3,13 +3,13 @@
         "modules-left": ["wlr/workspaces"],
         "modules-center": ["clock"],
         "modules-right": ["network","bluetooth","memory","temperature","pulseaudio","battery"],
-        "wlr/workspaces": {
+        "hyprland/workspaces": {
             "all-outputs": false,
             /*"format": "{name} <span font='25'>{icon}</span>",*/
             "format": "{name} {icon}",
             "on-click": "activate",
             "format-icons": {
-                "1": " ",
+                "1": " ",
                 "2": " ",
                 "3": " ",
                 "4": " ",
@@ -21,7 +21,6 @@
                 "10": " ",
                 "11": " ",
             },
-            "sort-by-number": true
         },
         "clock": {
             "format": "{:%a %m-%d %H:%M}",
@@ -47,7 +46,7 @@
             "format-linked": "{ifname} (No IP) ",
             "format-disconnected": " ",
             "format-disabled": "Disabled",
-            "on-click": "sleep 0.1 && ~/.config/hypr/bin/rofi-wifi-menu.sh",
+            "on-click": "sleep 0.1 && ~/.config/waybar/bin/rofi-wifi-menu.sh",
             "max-length": 5,
         },
         "pulseaudio": {
@@ -79,10 +78,10 @@
             "max-length": 8,
         },
         "bluetooth": {
-            "format": "{icon}",
+            "format": " {statue}",
             "format-connected": " {device_alias}",
+            "format-disabled": "",
             "tooltip": false,
-            "tooltip-format": "{status}",
             "format-on": "",
             "format-off": "󰂲",
             "on-click": "sleep 0.1 && ~/.config/waybar/bin/rofi-bluetooth.sh &",

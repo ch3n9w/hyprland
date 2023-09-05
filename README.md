@@ -10,8 +10,8 @@
 |    category    |    software     |
 | :------------: | :-------------: |
 | window manager |    Hyprland     |
-| wallpaper tool |    hyprpaper    |
-|   status bar   | waybar-hyprland |
+| wallpaper tool |     swaybg      |
+|   status bar   |     waybar      |
 |  screen lock   | swaylock-effect |
 |  app launcher  |      rofi       |
 |  notification  |      dunst      |

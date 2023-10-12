@@ -2,7 +2,7 @@
     "position": "bottom", 
         "modules-left": ["hyprland/workspaces"],
         "modules-center": ["clock"],
-        "modules-right": ["network","bluetooth","memory","temperature","pulseaudio","battery"],
+        "modules-right": ["tray","network","bluetooth","memory","temperature","pulseaudio","battery"],
         "hyprland/workspaces": {
             "all-outputs": false,
             /*"format": "{name} <span font='25'>{icon}</span>",*/
@@ -25,6 +25,11 @@
         "clock": {
             "format": "{:%a %m-%d %H:%M}",
             "tooltip": false,
+        },
+        "tray": {
+            "icon-size": 21,
+            "spacing": 10,
+            "show-passive-items": true,
         },
         "battery": {
             "states": {

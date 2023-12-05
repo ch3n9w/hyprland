@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name= Ubuntu
-Exec=vboxmanage startvm "ubuntu" --type headless
-Type=Application
-Terminal=false

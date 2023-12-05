@@ -4,6 +4,8 @@ clock
 
 disable-caps-lock-text
 image=~/Media/Pictures/landscape/great_lake_sky.jpg
+screenshots
+effect-blur=7x5
 font=JetBrainMono Nerd Font
 
 indicator

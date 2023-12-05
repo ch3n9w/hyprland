@@ -5,7 +5,7 @@
  *******************************************************************************/
 
 * {
-    font:   "JetBrainsMono Nerd Font Bold 20";
+    font:   "VictorMono NF Italic 20";
 
     bg0:     #2E3440;
     bg1:     #3B4252;

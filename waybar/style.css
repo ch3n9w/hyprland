@@ -121,6 +121,10 @@ window#waybar {
   color: #2aa000;
 }
 
+#cpu {
+  color: #7aa2f7;
+}
+
 #memory.critical {
   background-color: #f53c3c;
   color: #ffffff;
@@ -143,21 +147,7 @@ window#waybar {
   color: #268bd2;
 }
 
-#custom-books {
-  color: #ffffff;
-}
-
 #custom-todo {
   color: #7AA2F7;
   /* border-radius: 10px 0px 0px 10px; */
 }
-
-#custom-forest-coin {
-  color: #00FFFF;
-}
-
-#custom-forest {
-  color: #00FA9A;
-  border-radius: 10px 0px 0px 10px;
-}
-

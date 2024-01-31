@@ -16,4 +16,4 @@
 |  notification  |      dunst      |
 |  input method  |     fcitx5      |
 
-ps: be sure to change wallpaper path in `hypr/hyprpaper.conf`
+ps: be sure to change wallpaper path
